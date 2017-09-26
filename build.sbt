@@ -11,7 +11,7 @@ name := "paths-scala-js"
 
 version := "0.4.5"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.12.2"
 
 persistLauncher in Compile := true
 
