@@ -3,6 +3,8 @@ Paths.scala.js
 
 [Paths.js](https://github.com/andreaferretti/paths-js) is a library to generate [SVG paths](http://www.w3.org/TR/SVG/paths.html), allowing you to create your own charts using a functional and testable API. Paths.scala.js is the binding of Paths.js for [Scala.js](http://www.scala-js.org/).
 
+This is an updated fork based on [csar's fork](https://github.com/csar/paths-scala-js) to update versions, in particular to scala 2.12.4 and scala-js 0.6.21.
+
 Documentation
 -------------
 
@@ -17,9 +19,9 @@ The demo application is still incomplete, and fails to show many of Paths.scala.
 Usage
 -----
 
-Paths.scala.js is published for Scala 2.11 with Scala.js 0.6. In a Scala.js project, you can depend on Paths.scala.js with
+First you will need to run `sbt publishLocal`. Then in a Scala.js project, you can depend on Paths.scala.js with
 
-    libraryDependencies += "eu.unicredit" %%% "paths-scala-js" % "0.4.4"
+    libraryDependencies += "org.rebeam" %%% "paths-scala-js" % "0.4.5"
 
 Compatibility
 -------------
